@@ -27,14 +27,14 @@ projects:
     projects:
     # - repo-name
 
- social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # hackerrank: your_username
-  - instagram: _evan_bradley
+  hackerrank: evan_bradley
+  instagram: _evan_bradley
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: evan-bradley-29301615a
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
@@ -45,12 +45,14 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Data Analysis
+    web_url: https://github.com/topics/data-analysis
+    image_url: https://tr1.cbsistatic.com/hub/i/r/2015/09/30/f66fef72-5d57-48cc-bd8c-7ec0941e73ef/resize/770x/ac0363c3e414d51bafb1dd9b1c8a604a/dataanalysisistockrobuart.jpg
 
-  - name: Web design
+  - name: Artificial Inteligence
+    web_url: http://animalaiolympics.com/
+    image_url: https://spectrum.ieee.org/image/MzIzOTE0Ng.jpeg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Databases
+    web_url: https://github.com/topics/database
+    image_url: http://blogs.bmc.com/wp-content/uploads/2016/06/database-blue.png
