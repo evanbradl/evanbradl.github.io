@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
         
-        <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="css/style.css">
@@ -37,32 +36,58 @@
             <h1 class="section__title section__title--intro">
                 Hello, I am <strong>Evan Bradley</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Software Engineer<br>Yext<br>New York, NY </p>
+            <p class="section__subtitle section__subtitle--intro">
+                FDE, Tech Lead<br>
+                Palantir Technologies<br>
+                New York, NY
+            </p>
             <img src="img/headshot.jpg" alt="" class="intro__img">
         </section>
         
         
-        <!-- My services -->
+        <!-- Experience -->
         <section class="my-services" id="services">
             <h2 class="section__title section__title--services">Experience</h2>
+
             <div class="services">
+
+                <div class="service">
+                    <h3>Palantir Technologies</h3>
+                    <h5><i>Forward Deployed Software Engineer, Tech Lead<br>(Jun 2025 - Present)</i></h5>
+                    <p>
+                        Promoted to Tech Lead within six months after joining as one of two engineers rebuilding a customer team following significant turnover. Helped grow the team to five engineers while leading technical architecture, delivery, and roadmap for full-stack applications built on <b>Palantir Foundry</b> and <b>Apollo</b>, contributing to a ~5x expansion of the team's contract portfolio.
+                    </p>
+                    <p>
+                        Designed scalable data models and built <b>PySpark</b> ETL pipelines to transform large, messy datasets—including geospatial data—into structured, production-ready datasets. Built <b>React</b> frontends and backend APIs exposing this data through interactive applications used daily by customers.
+                    </p>
+                </div>
+
                 <div class="service">
                     <h3>Yext</h3>
-                    <h5><i>Software Engineer<br>(Feb 2023-Current)</i></h5>
-                    <p>Member of the Content team as a full stack product engineer, contributing to various features in the company's core product suite including <a href="https://hitchhikers.yext.com/docs/content/computed-field-values/"> AI Content Generation</a>, a highly available <a href="https://hitchhikers.yext.com/docs/contentdeliveryapis/introduction/overview-policies-and-conventions/">location API</a>, and the <a href="https://hitchhikers.yext.com/docs/content/entity-history/">Entity History</a> feature. Received strong feedback rating in all performance reviews and a promotion in my first cycle. Languages included Java, Go, and TypeScript. Tools used: <b>Kafka</b> , <b>Snowflake</b> and <b>RabbitMQ</b> </p>
-                </div> <!-- / service -->
+                    <h5><i>Software Engineer<br>(Feb 2023 - Jun 2025)</i></h5>
+                    <p>
+                        Full-stack engineer on the Knowledge Graph team, building customer-facing features in <b>React</b>, <b>TypeScript</b>, <b>Java</b>, and <b>Go</b>. Built the AI-powered Generated Field Values feature, enabling customers to automatically generate business information using LLMs. Designed a data pipeline that backfilled over <b>40 million</b> records using <b>Kafka</b>, <b>RabbitMQ</b>, and <b>Snowflake</b>, and expanded file upload support from 48MB to 1GB using Google Cloud Storage.
+                    </p>
+                </div>
+
                 <div class="service">
                     <h3>University of Iowa</h3>
-                    <h5><i>Teaching Assistant<br>(Aug 2020-Dec 2022)</i></h5>
-                    <p>Performed TA duties for engineering courses Machine Learning, Software Engineering Languages and Tools, Electrical Circuits and Communication Networks. Helped students understand concepts such as layered network architectures, network programming interfaces (e.g., sockets), network security and internet protocols. Lead a discussion section (approximately 25-30 students), and preparing lectures and/or review materials. Tools used: <b>C</b> , <b>Python</b> and <b>WireShark</b></p>
-                </div> <!-- / service -->
+                    <h5><i>Graduate Teaching Assistant<br>(Aug 2020 - Dec 2022)</i></h5>
+                    <p>
+                        TA for Machine Learning, Software Engineering Languages & Tools, and Communication Networks. Led weekly discussion sections of 20–30 students, created instructional materials, and taught concepts including networking, machine learning, software engineering, and systems programming. Tools used: <b>Python</b>, <b>C</b>, <b>Ruby</b>, and <b>Wireshark</b>.
+                    </p>
+                </div>
+
                 <div class="service">
-                    <h3>Meta (Facebook)</h3>
-                    <h5><i>Software Engineer Intern<br>(May 2022-Aug 2022)</i></h5>
-                    <p>Worked as a member of the cloud gaming hosting team to create an internal tool for stress testing our system. The tool allowed for adhoc test user generation and creation of selenium instances running internal games to simulate stress on cloud gaming infrastructure as well as the ability to schedule larger stress tests containing thousands of test users. Tools used: <b>PHP</b> , <b>Python</b> , <b>Selenium</b></p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
+                    <h3>Meta</h3>
+                    <h5><i>Software Engineer Intern<br>(May 2022 - Aug 2022)</i></h5>
+                    <p>
+                        Built internal tooling for Meta's cloud gaming infrastructure, including a stress-testing framework capable of simulating up to <b>10,000 concurrent users</b>. Developed and deployed a Python/Selenium chatbot that automated end-to-end testing workflows, reducing manual test setup time and improving developer productivity.
+                    </p>
+                </div>
+
+            </div>
+
             <a href="#work" class="btn">My Work</a>
         </section>
         
@@ -70,11 +95,23 @@
         <!-- About me -->
         <section class="about-me" id="about">
            <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about"><b>BSE,</b> in Computer Science and Engineering<br> <b>MS,</b> in Electrical and Computer Engineering</p>
+           <p class="section__subtitle section__subtitle--about">
+                <b>BSE</b>, Computer Science and Engineering<br>
+                <b>MS</b>, Electrical and Computer Engineering
+           </p>
            
            <div class="about-me__body">
-               <p>I am currently a Software Engineer at Yext in New York City, I recieved my MSE from the University of Iowa in Electrical and Computer Engineering in December 2022. During my time in school I worked as a teaching assistant, had 3 different summer Software Engineering internships (Meta/Facebook, Collins Aerospace and Ricoh Inc.) and one 8 month co-op (Collins Aerospace), these experiences helped me become a better team player, software developer and learner. I am passionate about creating useful software, I am especially interested in joining a team with passionate engineers that allow the oppurtunity to do deep dives into technical projects.
-                Some of my hobbies include outdoor activities such as distance running, skiing and camping, accompanied by a lot of music. I also love foreign languages, I studied Spanish in college and I am currently learning German in my free time.</p>
+               <p>
+                   I am currently a Forward Deployed Software Engineer and Tech Lead at Palantir Technologies in New York City. My work spans full-stack software engineering, distributed systems, data engineering, and customer-facing product development. I enjoy working at the intersection of software and real-world operations, partnering directly with users to build products that solve meaningful problems.
+               </p>
+
+               <p>
+                   Before joining Palantir, I was a Software Engineer at Yext, where I built AI-powered features, large-scale data pipelines, and core Knowledge Graph functionality. During graduate school at the University of Iowa, I worked as a teaching assistant and completed software engineering internships at Meta, Collins Aerospace, and Ricoh.
+               </p>
+
+               <p>
+                   Outside of work, I enjoy distance running, skiing, camping, and traveling. I also enjoy learning languages—I studied Spanish during college and am currently learning German in my free time.
+               </p>
            </div>
            
            <img src="img/adventure_shot.PNG" alt="" class="about-me__img">
@@ -98,26 +135,20 @@
                     <img src="img/air-quality.jpg" alt="" class="portfolio__img">
                 </a>
 
-                <!-- Portfolio item 03 -->
                 <a href="portfolio-item-scavenger.html" class="portfolio__item">
                     <img src="img/scavenger_hunt.jpg" alt="" class="portfolio__img">
                 </a>
 
-                <!-- Portfolio item 01 -->
                 <a href="portfolio-item.html" class="portfolio__item">
                     <img src="img/chess.jpg" alt="" class="portfolio__img">
                 </a>
                 
-                <!-- Portfolio item 02 -->
                 <a href="portfolio-item-covid.html" class="portfolio__item">
                     <img src="img/covid.jpg" alt="" class="portfolio__img">
                 </a>
                 
-                <!-- Portfolio item 04 -->
                 <a href="portfolio-item-police.html" class="portfolio__item">
                     <img src="img/police_blotter.jpg" alt="" class="portfolio__img">
-                </a>
-
                 </a>
             </div>
         </section>
@@ -125,8 +156,7 @@
         
         <!-- Footer -->
         <footer class="footer">
-            <!-- replace with your own email address -->
-            <a href="mailto:Evan-Bradley@uiowa.edu" class="footer__link">Evan-Bradley@uiowa.edu</a>
+            <a href="mailto:evanbradley123@gmail.com" class="footer__link">evanbradley123@gmail.com</a>
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://www.linkedin.com/in/evan-bradley/">
@@ -155,7 +185,6 @@
                 </li>
             </ul>
         </footer>
-        
         
         <script src="js/index.js"></script>
         
